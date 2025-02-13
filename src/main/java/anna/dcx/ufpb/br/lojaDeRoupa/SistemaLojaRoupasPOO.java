@@ -1,6 +1,7 @@
 package anna.dcx.ufpb.br.lojaDeRoupa;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -13,6 +14,9 @@ public class SistemaLojaRoupasPOO implements SistemaLojaRoupas{
 
     @Override
     public List<Roupa> pesquisaRoupasPorTamanho(Tamanho tamanhoRoupa) {
+        List<Roupa> listaTamanhoRoupa = new LinkedList<>();
+
+
         return List.of();
     }
 
