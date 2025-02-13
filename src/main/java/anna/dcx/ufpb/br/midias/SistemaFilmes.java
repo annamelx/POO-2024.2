@@ -1,4 +1,4 @@
-package anna.dcx.ufpb.br;
+package anna.dcx.ufpb.br.midias;
 
 import java.util.List;
 import java.util.LinkedList;

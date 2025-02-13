@@ -1,6 +1,5 @@
 package anna.dcx.ufpb.br.midias;
 
-import anna.dcx.ufpb.br.Filme;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

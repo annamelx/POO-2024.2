@@ -1,4 +1,4 @@
-package anna.dcx.ufpb.br;
+package anna.dcx.ufpb.br.midias;
 
 public class Episodio extends MidiaAudioVisual{
 
