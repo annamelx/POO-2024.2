@@ -1,4 +1,4 @@
-package br.LojaDeRoupa;
+package anna.dcx.ufpb.br.LojaDeRoupa;
 
 import org.junit.Test;
 
