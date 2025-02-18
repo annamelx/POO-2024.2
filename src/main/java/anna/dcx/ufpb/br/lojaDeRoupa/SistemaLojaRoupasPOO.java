@@ -31,7 +31,7 @@ public class SistemaLojaRoupasPOO implements SistemaLojaRoupas{
     }
 
     @Override
-    public void cadastraRoupa(String codigoRoupa, String descricao, Tamanho tamanho, int quantidade) throws RoupaJaExisteException {
+    public void cadastraRoupa (String codigoRoupa, String descricao, Tamanho tamanho, int quantidade) throws RoupaJaExisteException {
       if(this.roupasMap.containsKey(codigoRoupa)){
           throw new RoupaJaExisteException("Roupa ja cadastrada:" +codigoRoupa);
       }else{
