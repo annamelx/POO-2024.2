@@ -1,5 +1,7 @@
 package anna.dcx.ufpb.br.lojaDeRoupa;
 
+import java.util.Objects;
+
 public class Roupa {
     private String codigo;
     private String descricao;
@@ -53,5 +55,18 @@ public class Roupa {
                 ", quantidade=" + quantidade +
                 ", tamanho=" + tamanho +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Roupa roupa = (Roupa) o;
+        return Objects.equals(codigo, roupa.codigo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(codigo);
     }
 }

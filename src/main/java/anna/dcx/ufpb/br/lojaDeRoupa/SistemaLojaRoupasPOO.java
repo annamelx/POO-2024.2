@@ -15,18 +15,20 @@ public class SistemaLojaRoupasPOO implements SistemaLojaRoupas{
     @Override
     public List<Roupa> pesquisaRoupasPorTamanho(Tamanho tamanhoRoupa) {
         List<Roupa> listaTamanhoRoupa = new LinkedList<>();
-
+        //TODO
 
         return List.of();
     }
 
     @Override
     public List<Roupa> pesquisaRoupasComDescricaoComecandoCom(String prefixoDescricao) {
+        //TODO
         return List.of();
     }
 
     @Override
     public Tamanho consultaTamanhoDeRoupa(String codigoRoupa) throws RoupaInexistenteException {
+        //TODO
         return null;
     }
 
@@ -42,16 +44,22 @@ public class SistemaLojaRoupasPOO implements SistemaLojaRoupas{
 
     @Override
     public void alteraQuantidadeRoupaNoEstoque(String codigoRoupa, int novaQuantidade) throws RoupaInexistenteException {
-
+        //TODO
     }
 
     @Override
     public int pesquisarQuantidadeDeRoupaNoEstoque(String codigoRoupa) throws RoupaInexistenteException {
         return 0;
+        //TODO
     }
 
     @Override
     public Roupa pesquisaRoupa(String codigoRoupa) throws RoupaInexistenteException {
-        return null;
+        if(this.roupasMap.containsKey(codigoRoupa)){
+            return this.roupasMap.get(codigoRoupa);
+        }else{
+            throw new RoupaInexistenteException("Não existe roupa com esse código!");
+        }
+
     }
 }
