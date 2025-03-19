@@ -1,4 +1,4 @@
-package Turismo;
+package anna.dcx.ufpb.br.Turismo;
 
 import java.util.List;
 
