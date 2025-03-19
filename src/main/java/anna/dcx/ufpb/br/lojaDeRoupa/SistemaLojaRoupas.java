@@ -9,6 +9,6 @@ public interface SistemaLojaRoupas {
     public void cadastraRoupa(String codigoRoupa,String descricao,Tamanho tamanho,int quantidade)throws RoupaJaExisteException;
     public void alteraQuantidadeRoupaNoEstoque(String codigoRoupa,int novaQuantidade)throws RoupaInexistenteException;
     public int pesquisarQuantidadeDeRoupaNoEstoque(String codigoRoupa) throws RoupaInexistenteException;
-    public Roupa pesquisaRoupa(String codigoRoupa)throws RoupaInexistenteException;
+
 
 }
