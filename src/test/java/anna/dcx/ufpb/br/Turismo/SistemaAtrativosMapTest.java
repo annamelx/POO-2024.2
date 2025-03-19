@@ -1,4 +1,4 @@
-package Turismo;
+package anna.dcx.ufpb.br.Turismo;
 
 import anna.dcx.ufpb.br.Turismo.AtrativoJaExisteException;
 import anna.dcx.ufpb.br.Turismo.AtrativoNaoExisteException;
